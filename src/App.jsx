@@ -5,7 +5,7 @@ import Header from "./components/Header";
 import LinkCard from "./components/LinkCard";
 import Socials from "./components/Socials";
 import { links, doctor } from "./data/config";
-import Footer from "./components/footer";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
