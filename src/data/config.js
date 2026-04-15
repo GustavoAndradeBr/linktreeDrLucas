@@ -87,7 +87,7 @@ export const socials = [
   {
     id: "whatsapp",
     label: "WhatsApp",
-    href: "https://wa.me/5519981182333",
+    href: "https://wa.me/5516997841185?text=Olá%2C%20gostaria%20de%20entrar%20em%20contato%20com%20o%20Dr.%20Lucas%20Coracini.",
   },
   {
     id: "facebook",
