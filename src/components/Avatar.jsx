@@ -41,7 +41,7 @@ export default function Avatar() {
             <img
               src={doctor.photo}
               alt={doctor.name}
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover object-[-3px_top] scale-[1.08]"
             />
           ) : (
             <span
