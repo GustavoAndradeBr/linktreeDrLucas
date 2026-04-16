@@ -38,23 +38,6 @@ export const IconWhats = ({ size = 18, color = "currentColor" }) => (
   </svg>
 );
 
-export const IconFace = ({ size = 18, color = "currentColor" }) => (
-  <svg
-    width={size}
-    height={size}
-    fill="none"
-    viewBox="0 0 24 24"
-    stroke={color}
-    strokeWidth="1.5"
-  >
-    <path
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"
-    />
-  </svg>
-);
-
 export const IconInsta = ({ size = 18, color = "currentColor" }) => (
   <svg
     width={size}
@@ -78,23 +61,6 @@ export const IconInsta = ({ size = 18, color = "currentColor" }) => (
     <circle cx="17.5" cy="6.5" r="0.5" fill={color} stroke="none" />
   </svg>
 );
-
-export const IconBook = ({ size = 18, color = "currentColor" }) => (
-  <svg
-    width={size}
-    height={size}
-    fill="none"
-    viewBox="0 0 24 24"
-    stroke={color}
-    strokeWidth="1.5"
-  >
-    <path
-      strokeLinecap="round"
-      d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
-    />
-  </svg>
-);
-
 export const IconPin = ({ size = 18, color = "currentColor" }) => (
   <svg
     width={size}
@@ -225,9 +191,7 @@ export const IconEmail = ({ size = 15, color = "currentColor" }) => (
 export const linkIcons = {
   agenda: IconCalendar,
   whatsapp: IconWhats,
-  facebook: IconFace,
   instagram: IconInsta,
-  artigos: IconBook,
   localizacao: IconPin,
 };
 

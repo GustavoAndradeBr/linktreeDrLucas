@@ -22,9 +22,9 @@ export const doctor = {
   initials: "LC",
   crm: "RQE:94841 | CRM:182.379 | TEOT:17031",
   specialty: "Ortopedia e Traumatologia",
-  subspecialties: "Cirurgias do Joelho",
+  subspecialties: " Ortopedia Geral e Cirurgia do Joelho",
   city: "Ribeirão Preto, SP",
-  website: "drmendes.com.br",
+  website: "https://dr-lucas-coracini.vercel.app/",
   photo: dr,
 };
 
@@ -33,8 +33,29 @@ export const links = [
     id: "agenda",
     label: "Agendar Consulta",
     description: "Particular · Convênios selecionados",
-    href: createWhatsAppLink(messages.consulta(doctor.name)),
+    href: null,
     primary: true,
+    expandable: true,
+    options: [
+      {
+        label: "Telefone",
+        items: [
+          { text: "(16) 3234-3280", href: "tel:+551632343280" },
+          { text: "(16) 3234-3281", href: "tel:+551632343281" },
+        ],
+      },
+      {
+        label: "WhatsApp",
+        items: [
+          {
+            text: "(16) 9 9337-9428",
+            href:
+              "https://wa.me/5516993379428?text=" +
+              encodeURIComponent(messages.consulta(doctor.name)),
+          },
+        ],
+      },
+    ],
   },
   {
     id: "whatsapp",
@@ -44,24 +65,10 @@ export const links = [
     primary: false,
   },
   {
-    id: "facebook",
-    label: "Facebook",
-    description: "Siga no Facebook",
-    href: "https://www.facebook.com/lucas.coracini",
-    primary: false,
-  },
-  {
     id: "instagram",
     label: "Instagram",
     description: "@lucascoracini",
     href: "https://www.instagram.com/lucascoracini/",
-    primary: false,
-  },
-  {
-    id: "artigos",
-    label: "Artigos Científicos",
-    description: "Publicações e pesquisas",
-    href: "https://www.escavador.com/sobre/2182515995/lucas-nogueira-coracini",
     primary: false,
   },
   {

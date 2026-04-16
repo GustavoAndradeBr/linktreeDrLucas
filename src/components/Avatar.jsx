@@ -58,23 +58,6 @@ export default function Avatar() {
           )}
         </div>
       </motion.div>
-
-      {/* Status dot */}
-      {doctor.available && (
-        <motion.div
-          className="absolute rounded-full"
-          style={{
-            bottom: 4,
-            right: 4,
-            width: 13,
-            height: 13,
-            background: "#2ECC71",
-            border: "2px solid var(--bg)",
-          }}
-          animate={{ scale: [1, 1.35, 1] }}
-          transition={{ duration: 2.8, repeat: Infinity, ease: "easeInOut" }}
-        />
-      )}
     </motion.div>
   );
 }
