@@ -74,7 +74,7 @@ export default function Cartao() {
           <div className="lc-name">
             <em>Dr.</em>&nbsp; Lucas
             <br />
-            Coracinni
+            Coracini
           </div>
           <div className="lc-specialty">Ortopedia &amp; Traumatologia</div>
           <div className="lc-badge">Ortopedia Geral e Cirurgia do Joelho</div>
