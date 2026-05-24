@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Analytics } from "@vercel/analytics/react";
 import Background from "./components/Background";
 import Avatar from "./components/Avatar";
 import Header from "./components/Header";
@@ -72,6 +73,7 @@ export default function App() {
         <Socials />
         <Footer />
       </main>
+      <Analytics />
     </div>
   );
 }
