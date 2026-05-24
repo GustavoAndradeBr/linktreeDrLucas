@@ -1,3 +1,5 @@
+import { Analytics } from "@vercel/analytics/react";
+
 export default function Cartao() {
   return (
     <div
@@ -185,6 +187,7 @@ export default function Cartao() {
           </div>
         </div>
       </div>
+      <Analytics />
     </div>
   );
 }
